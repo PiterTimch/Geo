@@ -174,6 +174,9 @@ class Program
    - 🔗 Документація: https://docs.mapbox.com/api/maps/#mapbox-terrain-rgb
    - 💰 Платний (безкоштовно до 100 000 запитів)
 
+🔹 Якість повітря:
+https://www.iqair.com/us/air-quality-map?srsltid=AfmBOoqi2jPZHpjDDZ9C17MsH-ibcOrdhVs_kO4fYY-xEVwtUX_9B_hH
+
 ==========================================================
 🎯 **API, що повертають TIFF** 📂
 ----------------------------------------------------------
