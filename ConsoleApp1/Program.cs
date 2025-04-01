@@ -73,7 +73,7 @@ class Program
     static async Task NASA_Worldview(string bbox)
     {
         using HttpClient client = new HttpClient();
-        string date = DateTime.UtcNow.ToString("yyyy-MM-dd") + "T00:00:00Z";
+        string date = (DateTime.UtcNow.AddDays(-1)).ToString("yyyy-MM-dd") + "T00:00:00Z";
         string url = $"https://wvs.earthdata.nasa.gov/api/v1/snapshot?REQUEST=GetSnapshot&TIME={date}&BBOX={bbox}&CRS=EPSG:4326&LAYERS=MODIS_Terra_CorrectedReflectance_TrueColor&WIDTH=1024&HEIGHT=1024&FORMAT=image/jpeg";
 
         try
